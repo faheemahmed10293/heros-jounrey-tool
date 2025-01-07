@@ -1,0 +1,166 @@
+/* Marketing tool CSS */
+#generatedStory {
+    display: none;
+}
+#generatedStory {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0f0f0f;
+    border: 1px solid #ddd;
+	color: #ffffff;
+}
+#generatedStory p {
+    color: #ffffff;
+	position: relative;
+	top: 8px;
+}
+.dots {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+}
+
+.dots::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cc9a9;
+    animation: dots 1.5s infinite;
+}
+
+.dots::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5cc9a9;
+    animation: dots 1.5s infinite 0.3s;
+}
+
+.dots span::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #333;
+    animation: dots 1.5s infinite 0.6s;
+}
+
+@keyframes dots {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#copyButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#copyButton:hover {
+    background-color: #0056b3;
+}
+.slide {
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-image: url(https://staging.yourtabula.com/wp-content/uploads/2024/10/philip-myrtorp-7qaqY9a3H0c-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.slide h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.slide p {
+    margin: 10px 0;
+}
+
+.slide ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+@media only screen and (min-width: 1025px) {
+.tooltip-icon {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    border-radius: 50px;
+    border: 1px;
+    padding: 0px 10px 1px 9px;
+}
+}
+.tooltip-text {
+    visibility: hidden;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    width: 600px;
+    bottom: 125%; /* Position above the icon */
+    left: 50%;
+    margin-left: -100px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-icon:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+.tooltip-text {
+    width: 200px;
+	left: 0;
+    margin-left: -128px;
+ }
+ .tooltip-icon {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+	.tooltip-text {
+    width: 450px;
+    left: 0%;
+    margin-left: -165px;
+	}
+	.tooltip-icon {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    background: #5cc9a9;
+    border-radius: 50px;
+    border: 1px;
+    padding: 0px 10px 1px 9px;
+}
+}
