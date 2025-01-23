@@ -2,7 +2,7 @@
 /*
 Plugin Name: Heros Journey
 Plugin URI: https://yourtabula.com/
-Description: A simple custom plugin to create short stories by following heros Journey framework.
+Description: Create Powerful Sales Slides in Seconds with Our Free AI Tool.
 Version: 1.0
 Author: Faheem Ahmed
 */
