@@ -2,7 +2,7 @@
 /*
 Plugin Name: Heros Journey
 Plugin URI: https://yourtabula.com/
-Description: Create Powerful Sales Slides in Seconds with Our Free AI Tool.
+Description: Create Powerful Sales Slides in Seconds with this Free AI Tool.
 Version: 1.0
 Author: Faheem Ahmed
 */
