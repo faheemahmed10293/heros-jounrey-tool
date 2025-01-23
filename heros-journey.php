@@ -5,8 +5,6 @@ Plugin URI: https://yourtabula.com/
 Description: A simple custom plugin to create short stories by following heros Journey framework.
 Version: 1.0
 Author: Faheem Ahmed
-Author URI: https://yourtabula.com/
-License: GPL2
 */
 require_once plugin_dir_path(__FILE__) . 'config.php';
 // Shortcode to display the form
